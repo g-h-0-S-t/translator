@@ -45,7 +45,7 @@ URL = str(sys.argv[1])
 print('\nExtracting Blog...')
 req = Request(URL)
 html = BeautifulSoup(urllib.request.urlopen(req).read(), 'html.parser')
-blog = html.find('div', {'class': 'content-block'}).get_text()
+blog = html.find('div', {'id': 'bodyContent'}).get_text()
 print('\nExtracted...')
 
 print('\nTranslating Blog...')
