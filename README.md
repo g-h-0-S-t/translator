@@ -26,11 +26,11 @@ The tool
 # Usage
 (1) Install urllib, bs4, selenium.  
 (2) Change the DOM selectors inside the tool @ Line number 48, based on your need.  
-These selectors represents the element inside the Website from where the text is to be extracted.
+These selectors represents the element inside the Website from where the text is to be extracted.  
+Syntax examples: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 ```python
 blog = html.find('div', {'id': 'bodyContent'}).get_text()
 ```
-Syntax examples: https://www.crummy.com/software/BeautifulSoup/bs4/doc/  
 (3) Run the following command.
 ```python
 python3 translator.py https://en.wikipedia.org/wiki/Google_Translate
