@@ -8,7 +8,7 @@ WHONIX, Python 3, Chrome, Selenium
 # What's included
 translator.py, chromedriver for selenium
 # Usage
-Install urllib, bs4, selenium
+Install urllib, bs4, selenium 
 Run following command
 ```python
 python3 yacTranslator.py https://[your website]
