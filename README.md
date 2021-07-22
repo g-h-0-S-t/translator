@@ -1,5 +1,7 @@
 # translator
-One shot English to Multi-lang brute-force translator using Google Translate.  
+A one shot English to Multi-Lang bulk Python 3 web crawler-translator powered by Google Translate for WHONIX.  
+It bypasses Google's anti spam filter through switching TOR circuits.  
+
 Crawls through specified 'English' website provided as an URL input parameter from console/terminal  
 -> extracts texts inside **out/English.txt**  
 -> opens Chrome  
