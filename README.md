@@ -35,3 +35,5 @@ blog = html.find('div', {'id': 'bodyContent'}).get_text()
 python3 translator.py https://en.wikipedia.org/wiki/Google_Translate
 ```
 Replace the above Website URL with yours from where you want to extract the text.
+# Note
+Please raise PRs for improving this tool.
