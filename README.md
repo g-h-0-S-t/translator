@@ -16,9 +16,13 @@ The tool
 -> navigates to https://translate.google.com, and  
 -> retries the translation process from where it had left off.
 # Requirements
-WHONIX Operating System, Python 3, Chrome, Selenium
+(1) WHONIX Operating System (modify the code at your will to support other Operating Systems)  
+(2) Python 3  
+(3) Chrome  
+(4) Selenium
 # What's included
-translator.py, chromedriver for selenium (you can replace this with your own version)
+(1) translator.py  
+(2) chromedriver for selenium (you can replace this with your own version)
 # Usage
 (1) Install urllib, bs4, selenium.  
 (2) Change the DOM selectors inside the tool @ Line number 48, based on your need.  
