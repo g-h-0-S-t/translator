@@ -9,8 +9,9 @@ WHONIX Operating System, Python 3, Chrome, Selenium
 # What's included
 translator.py, chromedriver for selenium (you can replace this with your own version)
 # Usage
-(1) Install urllib, bs4, selenium  
-(2) Change the DOM selectors inside the tool @ Line number 48, based on your need.
+(1) Install urllib, bs4, selenium. 
+(2) Change the DOM selectors inside the tool @ Line number 48, based on your need.  
+These selectors represents the element insid the Website from where the text is to be extracted.
 ```python
 blog = html.find('div', {'class': 'content-block'}).get_text()
 ```
