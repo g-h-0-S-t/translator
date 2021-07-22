@@ -11,6 +11,6 @@ translator.py, chromedriver for selenium
 Install urllib, bs4, selenium  
 Run following command
 ```python
-python3 yacTranslator.py https://[your website]
+python3 translator.py https://[your website]
 ```
-You can focus on a specific are of the web page that needs translation by changing the DOM selectors inside the tool @ Line number 48.
+You can focus on a specific area of the web page that needs translation by changing the DOM selectors inside the tool @ Line number 48.
