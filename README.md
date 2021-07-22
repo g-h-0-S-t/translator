@@ -15,3 +15,6 @@ Run following command
 python3 translator.py http(s)://[your website]
 ```
 You can focus on a specific area of the web page that needs translation by changing the DOM selectors inside the tool @ Line number 48.
+```python
+blog = html.find('div', {'class': 'content-block'}).get_text()
+```
