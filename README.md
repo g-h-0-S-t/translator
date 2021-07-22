@@ -4,7 +4,7 @@ Crawls through specified 'English' website, extracts texts inside **out/English.
 # Definition of Brute force according to author w.r.t. this tool
 Google restricts requests after some time, giving **4XX** error.  The tool closes Chrome, changes TOR circuit, and retries the translation process from where it had left off.
 # Requirements
-WHONIX, Python 3, Chrome, Selenium
+WHONIX Operating System, Python 3, Chrome, Selenium
 # What's included
 translator.py, chromedriver for selenium
 # Usage
