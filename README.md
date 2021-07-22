@@ -1,6 +1,6 @@
 # translator
 One shot English to Multi-lang brute-force translator using Google Translate.  
-Crawls through specified 'English' website, extracts texts inside **out/English.txt**, opens chrome, navigates to https://translate.google.com, uploads **out/English.txt** and brute forces translation into all available languages.
+Crawls through specified 'English' website, extracts texts inside **out/English.txt**, opens Chrome, navigates to https://translate.google.com, uploads **out/English.txt** and brute forces translation into all available languages.
 # Definition of Brute force according to author w.r.t. this tool
 Google restricts requests after some time, giving **4XX** error.  The tool closes Chrome, changes TOR circuit, and retries the translation process from where it had left off.
 # Requirements
