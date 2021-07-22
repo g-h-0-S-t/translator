@@ -11,6 +11,6 @@ translator.py, chromedriver for selenium
 Install urllib, bs4, selenium  
 Run following command
 ```python
-python3 translator.py https://[your website]
+python3 translator.py http(s)://[your website]
 ```
 You can focus on a specific area of the web page that needs translation by changing the DOM selectors inside the tool @ Line number 48.
