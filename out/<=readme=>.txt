@@ -1,1 +1,1 @@
-this folder holds your translation files
+this folder holds your generated translation files
