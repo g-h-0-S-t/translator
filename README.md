@@ -9,12 +9,12 @@ WHONIX Operating System, Python 3, Chrome, Selenium
 # What's included
 translator.py, chromedriver for selenium (you can replace this with your own version)
 # Usage
-Install urllib, bs4, selenium  
-Change the DOM selectors inside the tool @ Line number 48, based on your need.
+(1) Install urllib, bs4, selenium  
+(2) Change the DOM selectors inside the tool @ Line number 48, based on your need.
 ```python
 blog = html.find('div', {'class': 'content-block'}).get_text()
 ```
-Run the following command.
+(3) Run the following command.
 ```python
 python3 translator.py http(s)://[your website]
 ```
