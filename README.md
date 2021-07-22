@@ -10,11 +10,11 @@ WHONIX Operating System, Python 3, Chrome, Selenium
 translator.py, chromedriver for selenium (you can replace this with your own version)
 # Usage
 Install urllib, bs4, selenium  
-Run following command
-```python
-python3 translator.py http(s)://[your website]
-```
-You can focus on a specific area of the web page that needs translation by changing the DOM selectors inside the tool @ Line number 48.
+Change the DOM selectors inside the tool @ Line number 48, based on your need.
 ```python
 blog = html.find('div', {'class': 'content-block'}).get_text()
+```
+Run the following command.
+```python
+python3 translator.py http(s)://[your website]
 ```
