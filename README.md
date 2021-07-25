@@ -24,8 +24,8 @@ The tool
 (3) Chrome  
 (4) Selenium
 # What's included
-(1) translator.py (Use this for simple Terminal output. The selectors are screwed up in this version which is fixed in v2. Feel free to modify this to suit your purpose. It's a toy / tool / means afterall, this and all other future versions.)
-(2) translator-v2.py (Super detailed code and Terminal output.)
+(1) translator.py (Use this for simple Terminal output. The selectors are screwed up in this version which is fixed in v2. Feel free to modify this to suit your purpose. It's a toy / tool / means afterall, this and all other future versions.)  
+(2) translator-v2.py (Super detailed code and Terminal output.)  
 (2) chromedriver for selenium (you can replace this with your own version)
 # Usage
 (1) Install urllib, bs4, selenium.  
