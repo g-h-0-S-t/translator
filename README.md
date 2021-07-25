@@ -8,7 +8,7 @@ Crawls through specified 'English' website provided as an URL input parameter fr
 -> navigates to https://translate.google.com  
 -> uploads **out/English.txt**, and  
 -> brute forces translation into all available languages  
--> saving those translated texts into respective **.txt** files inside **out**.
+-> saving those translated texts into respective **.txt** files inside **/out**.
 # Definition of 'Brute force' according to the author w.r.t. this tool
 Google restricts requests after sometime, giving **4XX** error.  
 
