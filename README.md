@@ -44,7 +44,7 @@ python3 translator.py https://en.wikipedia.org/wiki/Nuclear_fission
 ```python
 python3 translator-v2.py https://en.wikipedia.org/wiki/Nuclear_fission
 ```
-Replace the above Website URL with yours from where you want to extract the text.
+Replace the above Website URL with yours from where you want to extract the text.  
 **Output of v2**
 ```python
 Connecting to https://en.wikipedia.org/wiki/Nuclear_fission ...
