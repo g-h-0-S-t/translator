@@ -132,7 +132,7 @@ def init(driver):
 		# for debugging. use it @ your own risk. i am tired of the terminal screaming @ my face.
 		# print('\n---------->', e)
 
-		# Startegy to bypass Google's spam filter: quit chrome, switch TOR ID, re-try translation job
+		# Strategy to bypass Google's spam filter: quit chrome, switch TOR ID, re-try translation job
 		driver.quit()
 
 		with Controller.from_port(port = 9051) as controller:
