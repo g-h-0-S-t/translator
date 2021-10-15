@@ -1,3 +1,5 @@
+<img src="https://antigotimes.com/wp-content/uploads/2014/12/writinghand.png" width="200" title="Journalism Utilities" alt="Journalism Utilities" />  
+
 # translator
 A one shot English to Multi-Lang bulk Python 3 web crawler-translator powered by Google Translate for WHONIX.  
 It bypasses Google's anti spam filter through switching TOR circuits.  
